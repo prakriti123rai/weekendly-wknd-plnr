@@ -1,0 +1,168 @@
+/* Theme CSS Variables and Classes */
+
+/* Default Theme */
+.theme-default {
+  --primary-bg: #f8fafc;
+  --card-bg: #ffffff;
+  --text-primary: #1f2937;
+  --text-secondary: #6b7280;
+  --border-color: #e5e7eb;
+  --accent-color: #3b82f6;
+}
+
+.theme-default .bg-slate-50 {
+  background-color: var(--primary-bg);
+}
+
+.theme-default .bg-white {
+  background-color: var(--card-bg);
+}
+
+.theme-default .text-gray-900 {
+  color: var(--text-primary);
+}
+
+.theme-default .text-gray-600 {
+  color: var(--text-secondary);
+}
+
+.theme-default .border-gray-200 {
+  border-color: var(--border-color);
+}
+
+/* Lazy Theme - Relaxed and Cozy */
+.theme-lazy {
+  --primary-bg: #fef7ed;
+  --card-bg: #fff7ed;
+  --text-primary: #9a3412;
+  --text-secondary: #c2410c;
+  --border-color: #fed7aa;
+  --accent-color: #ea580c;
+}
+
+.theme-lazy .bg-slate-50 {
+  background-color: var(--primary-bg);
+}
+
+.theme-lazy .bg-white {
+  background-color: var(--card-bg);
+}
+
+.theme-lazy .text-gray-900 {
+  color: var(--text-primary);
+}
+
+.theme-lazy .text-gray-600 {
+  color: var(--text-secondary);
+}
+
+.theme-lazy .border-gray-200 {
+  border-color: var(--border-color);
+}
+
+.theme-lazy .bg-blue-600 {
+  background-color: var(--accent-color);
+}
+
+.theme-lazy .hover\:bg-blue-700:hover {
+  background-color: #dc2626;
+}
+
+/* Adventurous Theme - Bold and Energetic */
+.theme-adventurous {
+  --primary-bg: #f0f9ff;
+  --card-bg: #e0f2fe;
+  --text-primary: #0c4a6e;
+  --text-secondary: #0369a1;
+  --border-color: #7dd3fc;
+  --accent-color: #0284c7;
+}
+
+.theme-adventurous .bg-slate-50 {
+  background-color: var(--primary-bg);
+}
+
+.theme-adventurous .bg-white {
+  background-color: var(--card-bg);
+}
+
+.theme-adventurous .text-gray-900 {
+  color: var(--text-primary);
+}
+
+.theme-adventurous .text-gray-600 {
+  color: var(--text-secondary);
+}
+
+.theme-adventurous .border-gray-200 {
+  border-color: var(--border-color);
+}
+
+.theme-adventurous .bg-blue-600 {
+  background-color: var(--accent-color);
+}
+
+.theme-adventurous .hover\:bg-blue-700:hover {
+  background-color: #0369a1;
+}
+
+/* Enhanced category styling for all themes */
+.theme-default .bg-orange-100,
+.theme-lazy .bg-orange-100,
+.theme-adventurous .bg-orange-100 {
+  background-color: #fed7aa;
+}
+
+.theme-default .text-orange-800,
+.theme-lazy .text-orange-800,
+.theme-adventurous .text-orange-800 {
+  color: #9a3412;
+}
+
+.theme-default .bg-green-100,
+.theme-lazy .bg-green-100,
+.theme-adventurous .bg-green-100 {
+  background-color: #dcfce7;
+}
+
+.theme-default .text-green-800,
+.theme-lazy .text-green-800,
+.theme-adventurous .text-green-800 {
+  color: #166534;
+}
+
+.theme-default .bg-blue-100,
+.theme-lazy .bg-blue-100,
+.theme-adventurous .bg-blue-100 {
+  background-color: #dbeafe;
+}
+
+.theme-default .text-blue-800,
+.theme-lazy .text-blue-800,
+.theme-adventurous .text-blue-800 {
+  color: #1e40af;
+}
+
+.theme-default .bg-purple-100,
+.theme-lazy .bg-purple-100,
+.theme-adventurous .bg-purple-100 {
+  background-color: #f3e8ff;
+}
+
+.theme-default .text-purple-800,
+.theme-lazy .text-purple-800,
+.theme-adventurous .text-purple-800 {
+  color: #6b21a8;
+}
+
+.theme-default .bg-gray-100,
+.theme-lazy .bg-gray-100,
+.theme-adventurous .bg-gray-100 {
+  background-color: #f3f4f6;
+}
+
+.theme-default .text-gray-800,
+.theme-lazy .text-gray-800,
+.theme-adventurous .text-gray-800 {
+  color: #1f2937;
+}

@@ -1,4 +1,6 @@
-export type Day = 'saturday' | 'sunday';
+export type Day = 'friday' | 'saturday' | 'sunday' | 'monday' | string; // Allow custom days
+export type WeekendType = 'standard' | 'long-friday' | 'long-monday' | 'custom';
+
 export interface Activity {
   id: string;
   title: string;
@@ -10,6 +12,7 @@ export interface Activity {
   imageUrl?: string;
   notes?: string;
 }
+
 export interface ScheduledItem {
   id: string;
   activityId: string;
@@ -17,8 +20,15 @@ export interface ScheduledItem {
   startISO: string;
   durationMinutes: number;
 }
+
 export interface WeekendlyState {
   activities: Record<string, Activity>;
   schedule: ScheduledItem[];
-  ui: { selectedActivityId?: string; theme: string; };
+  ui: { 
+    selectedActivityId?: string; 
+    theme: string;
+    weekendType: WeekendType;
+    customDays: Day[];
+    dismissedHolidaySuggestions: string[];
+  };
 }
