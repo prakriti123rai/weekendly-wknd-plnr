@@ -153,9 +153,9 @@ The application is ready for deployment on modern hosting platforms:
 2. Deploy the `dist` folder to your hosting platform
 3. Configure environment variables if needed
 
-> **Live Demo**: The app will be deployed at 
+> **Live Demo**: The app will be deployed at https://weekendly-wknd-plnr.vercel.app/
 
-## 🎬 Demo Video
+## 🎬 Demo Video - 
 
 > 
 
